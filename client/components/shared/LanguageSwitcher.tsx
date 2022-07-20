@@ -4,7 +4,6 @@ import { useRouter } from 'next/router';
 import { MouseEvent, useState } from 'react';
 
 import { languages } from '@/config/languages';
-import { TRANSLATE_URL } from '@/constants/index';
 
 const LanguageSwitcher = () => {
   const router = useRouter();
@@ -25,8 +24,6 @@ const LanguageSwitcher = () => {
     router.push({ pathname, query }, asPath, { locale });
   };
 
-  const handleAddLanguage = () => window.open(TRANSLATE_URL, '_blank');
-
   return (
     <div>
       <IconButton onClick={handleClick}>
@@ -39,12 +36,6 @@ const LanguageSwitcher = () => {
             {name} {localName && `(${localName})`}
           </MenuItem>
         ))}
-
-        <MenuItem>
-          <span className="font-bold" onClick={handleAddLanguage}>
-            Add your language
-          </span>
-        </MenuItem>
       </Menu>
     </div>
   );

@@ -5,7 +5,7 @@
 [![Project Version](https://img.shields.io/github/package-json/v/vencake/resume/?style=flat-square)](https://github.com/vencake/resume/releases)
 [![Project License](https://img.shields.io/github/license/vencake/resume?style=flat-square)](https://github.com/vencake/resume/blob/main/LICENSE)
 [![Crowdin](https://badges.crowdin.net/reactive-resume/localized.svg)](https://translate.rxresu.me)
-[![Docker Pulls](https://img.shields.io/docker/pulls/amruthpillai/reactive-resume?style=flat-square)](https://hub.docker.com/r/amruthpillai/reactive-resume)
+[![Docker Pulls](https://img.shields.io/docker/pulls/vencake/resume?style=flat-square)](https://hub.docker.com/r/vencake/resume)
 ![GitHub Workflow Status](https://img.shields.io/github/workflow/status/vencake/resume/Build%20and%20Push%20Docker%20Image?label=docker%20build&style=flat-square)
 [![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fvencake%2FReactive-Resume.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2Fvencake%2Fresume?ref=badge_shield)
 

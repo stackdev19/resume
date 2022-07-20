@@ -37,10 +37,10 @@ jobs:
           push: true
           file: client/Dockerfile
           tags: |
-            amruthpillai/reactive-resume:client-latest
-            amruthpillai/reactive-resume:client-${{ steps.version.outputs.tag }}
-            ghcr.io/amruthpillai/reactive-resume:client-latest
-            ghcr.io/amruthpillai/reactive-resume:client-${{ steps.version.outputs.tag }}
+            vencake/resume:client-latest
+            vencake/resume:client-${{ steps.version.outputs.tag }}
+            ghcr.io/vencake/resume:client-latest
+            ghcr.io/vencake/resume:client-${{ steps.version.outputs.tag }}
 
   server:
     name: Server
@@ -74,7 +74,7 @@ jobs:
           push: true
           file: server/Dockerfile
           tags: |
-            amruthpillai/reactive-resume:server-latest
-            amruthpillai/reactive-resume:server-${{ steps.version.outputs.tag }}
-            ghcr.io/amruthpillai/reactive-resume:server-latest
-            ghcr.io/amruthpillai/reactive-resume:server-${{ steps.version.outputs.tag }}
+            vencake/resume:server-latest
+            vencake/resume:server-${{ steps.version.outputs.tag }}
+            ghcr.io/vencake/resume:server-latest
+            ghcr.io/vencake/resume:server-${{ steps.version.outputs.tag }}

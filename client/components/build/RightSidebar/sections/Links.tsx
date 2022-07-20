@@ -1,9 +1,9 @@
-import { BugReport, Coffee, GitHub, Link, Savings } from '@mui/icons-material';
+import { BugReport, GitHub, Link, Savings } from '@mui/icons-material';
 import { Button } from '@mui/material';
 import { useTranslation } from 'next-i18next';
 
 import Heading from '@/components/shared/Heading';
-import { DONATION_URL, GITHUB_ISSUES_URL, GITHUB_URL } from '@/constants/index';
+import { GITHUB_ISSUES_URL, GITHUB_URL } from '@/constants/index';
 
 import styles from './Links.module.scss';
 
@@ -22,10 +22,6 @@ const Links = () => {
           </h2>
 
           <p>{t<string>('builder.rightSidebar.sections.links.donate.body')}</p>
-
-          <a href={DONATION_URL} target="_blank" rel="noreferrer">
-            <Button startIcon={<Coffee />}>{t<string>('builder.rightSidebar.sections.links.donate.button')}</Button>
-          </a>
         </div>
 
         <div className={styles.section}>
